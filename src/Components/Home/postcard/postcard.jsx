@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import axios from 'axios'
 import Commentcard from '../../../commentcard/commentcard'
-import DropDown from '../../../DropDown/dropdown'
+import DropDown from '../../../Dropdown/dropdown'
 import { authcontext } from '../../../context/authcontect'
 
 export default function Postcard({ post, issinglecomment = false }) {
